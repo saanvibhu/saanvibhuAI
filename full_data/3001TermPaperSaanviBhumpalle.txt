@@ -1,0 +1,127 @@
+﻿Saanvi Bhumpalle
+CS 3001, Spring 2023
+Term Paper
+
+
+Measures needed to virtually Eliminate Gender Bias in Natural Language Processing Systems, specifically within the context of Smart Assistant Devices.
+Introduction
+Everything spoken or written is biased. It is human to make mistakes and choose phrases that can be interpreted with different meanings. Choosing certain words to say the same information is biased, in fact. Everyone has a different way of saying and interpreting things. The inherent nature of natural language is that each word has connotations that are emphasized by the context they are used in. Lexical knowledge does not have “perceptual, motor, or emotional experience” (Grand et al., 2022). Language is complex, human, and not purely based on logic, therefore difficult for a machine to interpret. 
+
+
+In this way, AI uses word embeddings to process knowledge through “statistical regularities [rather than through] natural language itself” (Grand et al., 2022). Our best representation of natural language through AI, though nowhere near perfect, is a technology called Natural Language Processing. Therefore, with analysis, I have concluded that Natural Language Processing should be offset with debiasing algorithms to account for gender bias, due to social and ethical implications of the output produced.
+
+
+Because natural language is complex and can be interpreted in many ways, it can be challenging to effectively identify and filter out bias. It makes me question whether it is worth removing the inherent gender bias if NLP could simply be trained to accurately reflect society’s evolving thoughts. Bias is when a commodity is associated with a “negative connotation” due to false assumptions from an individual’s experiences (Delovski, 2023). Bias is not based on real evidence or logic, but is rather offered by an individual’s opinions and beliefs. When negative connotations from bias are applied to items or ideas, an inaccurate conclusion can be reached. We avoid personal bias in our everyday life, but we also “regularly use [AI] to shape our own behavior” (Delovski, 2023). Therefore, we wish to avoid biased information in society because it often affects our capability to make impartial remarks about ideas. If inaccurate information is spread through bias, our society can be subject to biased information, consequently making it difficult for all individuals to form opinions and make decisions that are not influenced by false assumptions and personal biases. (Delovski, 2023).
+ 
+AI is a large contributor to the information that we, as a society, have access to on a daily basis. With such a large impact on society’s access to information, it is important that we ensure AI does not generate information that is inaccurate due to biased data. Deep learning models embedded in AI are known to be trained by engineers to use data, but is the bias introduced in the models or is it “biased because one solution [is preferred] over another?” (Delovski, 2023).
+
+
+The Significance of Natural Language Processing in AI and its Nature
+Natural Language Processing, or NLP, is one example of AI that processes languages spoken by human beings, otherwise known as natural languages. Siri “became [the] world’s first NLP/AI based assistant” (Bachate & Sharma, 2020). Other companies, including Google, Amazon, and Microsoft followed with their own assistants well (Bachate & Sharma, 2020). NLP is used for a wide variety of actions such as translating human languages, summarizing text, social media sentiment analysis, virtual chatbots, and spam detection. One application of bias in NLP is when the sentiment behind a social media post that is otherwise normal is flagged as ‘harmful’ due to bias issues with NLP (IBM, 2023). 
+
+
+NLP chronologically flows through a variety of processes to compute a comprehensive, successful output. Phonetic analysis converts speech into text while lexical analysis is used in NLP software that analyzes inputted text from the user. Next, morphological analysis is used to segregate words and non-words. Syntax checks the grammar of the input and corrects it accordingly, meanwhile, semantic analysis interprets all possible meanings of the input. Because there are multiple meanings, the pragmatic analysis applies context and chooses the best semantic interpretation of the input (Bachate & Sharma, 2020). All of these processes are necessary to offer the most conclusive representation of the user input, due to the complex attributes of natural language. Then, the software can produce output that offers the best response to the processed input.
+
+
+Identifying Gender Biases in NLP and How Biases Arise
+NLP can be affected by many types of bias, including label bias, historical bias, semantic bias, and selection bias. Selection bias, in particular, is when the sample of observations does not represent the application population. It is one of the simplest biases caused by a discrepancy between the observed sample distribution and the expected distribution. One way to align the data is through stratifying “based on various socioeconomic and demographic attributes in a multilevel logistic regression” (Shah et al.).
+
+
+One example of gender bias caused by selection and semantic bias is Amazon’s hiring process using AI and NLP. In 2015, Amazon decided to automate its resume screening process to select top candidates for the job. The NLP application learned to score candidates by analyzing patterns in previous samples from Amazon depending on the job candidate’s success level at Amazon. Women were “underrepresented in the training set”, which is an indicator of selection bias. Semantic bias is displayed because the NLP’s resume screening associated men with “linguistic signals [that indicate] successful employment at Amazon” (Caliskan, 2022). The resumes that were discarded by the algorithm had words associated with women. This led to blatant discrimination against job candidates that were female.
+
+
+Another bias that NLP is prone to is historical bias, especially with the data of a society that is often sexist and racist. NLP detects patterns in human language and picks up “human biases, such as racism, sexism, and ableism” (Caliskan, 2022). NLP can be trained based on data sources that already have applied “biased outcomes of NLP applications” (Caliskan, 2022). Text from the early 20th century may have sexist or racist language that is not acceptable today. There must be a way for NLP to interpret the text for the valuable historical knowledge it provides for society.
+
+
+Text corpora can “capture semantics” using word embeddings that are able to capture words that are associated with each other (Caliskan et al., 2017). These word embeddings often reflect “stereotypes based on cultural habits [and] gender divisions in languages” (Costa-jussà, 2019). An example of a word embedding is the fact that the word, ‘dog’ is associated with the word ‘bark’. Word embeddings that are more associated with each other have “vectors that are close together”  (Bolukbasi et al., 2016). These stereotypes are easier to study because of their consistency.
+
+
+NLP uses word embeddings to analyze patterns such as the previous example, which is why semantic bias can accidentally occur due to the statistical patterns from samples. (Caliskan et al., 2017). The wrong stereotype being associated with a certain word is an example of Semantic bias. Semantic bias is countered by adjusting the parameters of an embedding model in order to produce a more accurate distribution (Shah. et al.).
+
+
+        Examples of gender bias through semantic bias come up in translating software. A gender-neutral Turkish sentence, “O bir profesör. O bir öğretmen”, was converted to an English sentence, “He’s a professor. She is a teacher”, through Google Translate (Caliskan, 2022).  The Turkish sentence did not provide any information about the gender of the people being referred to. One explanation offered is the bias in word embeddings because if word embeddings are trained based on a greater frequency of male pronouns associated with particular professions, it can lead to biased data based upon gender. Languages “encode gender differently: some ignore gender difference, while others explicitly encode it in articles or in morphemes” (Costa-jussà, 2019).
+
+
+Historical bias arises when biases appear before the computer system was even created. There are stereotypes and discriminatory portrayals of certain groups which cause this bias. A gender gap exists in text as well because “women are underrepresented in most areas of society” (Stańczak & Augenstein, 2021). “Biased corpora researchers” end up training their models on the more common text that is written and quoted about men (Stańczak & Augenstein, 2021). The results with this type of bias can be skewed due to the predominant text about the male perspective (Stańczak & Augenstein, 2021).
+
+
+Ethical and Societal Implications of Gender Bias in NLP Smart Assistants
+Gender bias in data can lead to unequal treatment of individuals based on their gender.
+Through Kantianism, gender bias would violate the principle of treating one as a means to an end. If NLP were to continue producing discriminatory information towards women, that would be an example of treating women as a means to an end. Naturally defaulting to the pronouns ‘she’ or ‘he’” as a means to distribute information about a nurse without any prior information about their gender is an example of a means to an end. It violates the Kantian principle.
+
+
+Act Utilitarianism performs an analysis on each party involved. In this scenario, gender bias due to NLP would be analyzed by each scenario and situation. This includes the consequences for a certain group of people representing all women or those that identify with female pronouns. The discrimination against this group would affect so many people. Through Social Contract Theory, one would argue that society, as a whole, agrees to not discriminate against each other in exchange for no one to discriminate against them. Therefore, since all necessary steps should be taken to ensure overall happiness, there must be more established regulations on eliminating gender bias and other forms of bias in AI.
+
+
+In society, language is how people access and learn their information. The sources that people see first are a large influence to their thoughts and opinions and how they make informed decisions. Language is a “political instrument” (Hovy & Spruit, 2016). In society, gender bias in the language used by parents and school textbooks cause children to learn “sexist perceptions and behaviors towards other children of opposite gender” (Doughman et al., 2021). Sexism has an impact on people’s physiological wellbeing as well. Category learning happens earlier in one’s life which is where children’s lexical acquisition comes from (Doughman et al., 2021).
+
+
+Because children have access to gender-bias in their own text on a regular basis to start with, it is clear that society has a historical bias problem already (Doughman et al., 2021). Society has evolved from the old sexist ways. However, a good amount of society is collectively willing to change these ways. One could argue that gender bias will continue to exist because childrens’ access to information does not only depend on NLP.
+
+
+There are “118 million smart speakers” owned by adults, therefore, many children have direct access to smart assistants and can give them “undivided attention” (Garg & Sengupta, 2020). With such a big impact on the youth that are still forming their opinions, there is a need for better regulation of the NLP behind these smart assistants. It should be the standard that AI reflects society and also evolves to be gender agnostic.
+
+
+Because so much data is collected based on “western, educated, industrialized, [and] rich” perspectives, NLP overfitts to demographic bias and assumes all languages to be identical (Hovy & Spruit, 2016). This causes NLPs to perform poorly on other demographics, resulting in the exclusion of certain people (Hovy & Spruit, 2016). At a closer perspective through the lens of gender bias, certain jobs are seen as exclusive to either women or men, such as professors being male-associated and excluding female pronouns. This is also known as occupational bias (Doughman et al., 2021). Smart assistants, such as Google Assistant, when asked to use their translating features, are prone to gender bias output due to word embeddings, as discussed previously. However, in addition, their output can be questionable when speaking to them. One interesting addition is that in 2017, for input of “You’re a slut”, Siri would respond with “I’d blush if I could” and Alexa would respond with “Well, thanks for the feedback” (Chin & Robison, 2022).  Note that the same study reveals that a less gender-focused statement was used for the reply in 2020. From this information it is clear that advancements are being made to remove these gender bias issues.
+
+
+Many could argue that society could choose to ignore the gender bias problems in AI as long as all of society is educated and aware that these are wrong. Some believe reducing gender bias gets rid of the author’s intended tone in the first place. To those with the concern of it removing the text’s intended meaning, the algorithm “reduces both direct and indirect gender bias while preserving the utility of the [word] embedding” (Bolukbasi et al., 2016). But the overall development of a diverse and harmless environment is important. The ACM code of ethics states to “Avoid Harm” and it states to “foster fair participation of all people” (ACM, 2018). The code also emphasizes analysis of possible risks. 
+
+
+A good amount of software engineers are already doing what they can to regulate the gender bias problem in their respective companies, however, there needs to be oversight and regulation of how it is done to ensure no mistakes are being made. The nature of society is unpredictable, but the gender bias problem directly affects the youth. The smart assistants’ response to people can offer the wrong idea. One could argue that because society is gradually adapting to be gender-agnostic, the NLP software will also adapt with that data to have less gender bias. I suppose time will tell whether this will be reflected, however right now, I argue if there is still gender bias being taught to people from a young age, it will always be present in society, no matter how many countermeasures are taken to remove it when it arises. Currently, software engineers are actively trying to combat the issues of gender bias with debiasing algorithms mentioned above (Caliskan, 2022).
+Technology companies, especially those that have smart assistants, “collect [data] from billions of internet users” that are used to train these NLP systems (Caliskan, 2022). These companies cannot be trusted to have fair self-regulation of AI because each definition of fair would be inconsistent. Measures should be taken for companies to meet certain standards defined by either federal legislation or a third-party computer organization like the ACM. These companies are not transparent, and do not release data, therefore it is difficult to understand the impact of their word embeddings. If proper regulation is released, we can identify sources of gender bias and more efficiently mitigate the bias  (Caliskan, 2022).
+
+
+Acceptable Regulations and Concluding Remarks
+Based on the analysis, I conclude the way to reduce bias in smart assistants that use natural processing language is through either legislation or a specific third-party that can regulate technology companies that have smart assistants with a strong emphasis on hard-debias algorithms. The example of Amazon’s employee screening process reflects an example of neglect that companies show regarding gender bias issues, proving that regulation is necessary. Many children have direct access to smart assistants and can base a majority of their lexical knowledge on what they are exposed to. NLP models are so widely used and therefore must be regulated to avoid tech companies having enormous power over equity and democracy for the public. Specifically, tech companies that have NLP smart assistants should at least be required to have hard debiasing algorithms and actively avoid gender bias.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References
+ACM. (2018). ACM code of ethics and professional conduct (1992 and 2018). https://ethics.acm.org/wp-content/uploads/2016/11/1992_and_2018Draft1_sidebyside.pdf
+Bachate, R. P., & Sharma, A. (2020). Acquaintance with natural language processing for building Smart Society. E3S Web of Conferences, 170, 02006. https://doi.org/10.1051/e3sconf/202017002006 
+Bolukbasi, T., Chang, K.-W., Zou, J., Saligrama V., Kalai, A. (2016). Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings. ArXiv. Retrieved 2023, from https://arxiv.org/abs/1607.06520#.
+Caliskan, A. (2022, March 9). Detecting and mitigating bias in Natural Language Processing. Brookings. Retrieved March 23, 2023, from https://www.brookings.edu/research/detecting-and-mitigating-bias-in-natural-language-processing/
+Caliskan, A., Bryson, J. J., & Narayanan, A. (2017). Semantics derived automatically from language corpora contain human-like biases. Science, 356(6334), 183–186. https://doi.org/10.1126/science.aal4230
+Chin, C., & Robison, M. (2022, March 9). How ai bots and voice assistants reinforce gender bias. Brookings. Retrieved April 9, 2023, from https://www.brookings.edu/research/how-ai-bots-and-voice-assistants-reinforce-gender-bias/
+Costa-jussà, M. R. (2019). An analysis of gender bias studies in Natural Language Processing. Nature Machine Intelligence, 1(11), 495–496. https://doi.org/10.1038/s42256-019-0105-5  
+Delovski , B. (2023, March 15). Is bias in NLP models an ethical problem? Edlitera. Retrieved March 22, 2023, from https://www.edlitera.com/en/blog/posts/bias-in-nlp
+Doughman, J., Khreich, W., El Gharib, M., Wiss, M., & Berjawi, Z. (2021). Gender bias in text: Origin, taxonomy, and implications. Proceedings of the 3rd Workshop on Gender Bias in Natural Language Processing. https://doi.org/10.18653/v1/2021.gebnlp-1.5
+Garg, R., & Sengupta, S. (2020). He is just like me. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 4(1), 1–24. https://doi.org/10.1145/3381002 
+Grand, G., Blank, I. A., Pereira, F., & Fedorenko, E. (2022). Semantic projection recovers rich human knowledge of multiple object features from word embeddings. Nature Human Behaviour, 6(7), 975–987. https://doi.org/10.1038/s41562-022-01316-8
+Hovy, D., & Spruit, S. L. (2016). The social impact of Natural Language Processing. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). https://doi.org/10.18653/v1/p16-2096 (pr)
+IBM. (2023). What is natural language processing? IBM. Retrieved March 28, 2023, from https://www.ibm.com/topics/natural-language-processing
+Shah, D. S., Schwartz, H. A., & Hovy, D. (2020). Predictive biases in natural language processing models: A conceptual framework and overview. Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. https://doi.org/10.18653/v1/2020.acl-main.468 
+Stańczak, K., & Augenstein, I. (2021). A Survey on Gender Bias in Natural Language Processing. Retrieved 2023, from https://arxiv.org/pdf/2112.14168.pdf.

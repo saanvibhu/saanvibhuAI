@@ -1,0 +1,33 @@
+﻿Saanvi Bhumpalle
+sbhumpalle3
+Parallels between Computer and Human Vision via Strengths and Weaknesses: What Computer Scientists should Adapt or Ignore
+Computer vision is an application of artificial intelligence intended for computers to decipher visual information from the world similar to how humans perceive the world through their eyes. The nature and complexity of human vision has inspired the development of computer vision dedicated to emulating these perceptual processes. The two share many parallels such as image classification, object recognition, feature analysis, and other forms of human visual perception. Although human vision is nuanced in its nature, it should not be replicated with all its exact features, as human vision holds limitations that computer models do not demonstrate. Computer scientists should adapt the aspects of human vision involving feature integration theory while ignoring our inability to multitask while prioritizing specific content in a visual scene.
+
+
+Computer vision breaks up objects in a scene through “feature maps” and approaches each feature separately (Frintrop et al., 2010). This idea parallels that of feature integration theory (FIT) in which humans perceive each individual feature as part of the same object. FIT starts with the preattentive stage that analyzes independent specific features, such as intensity, color, and orientation before associating said features with the specific object as a whole. Later, there is a focused attention stage when the independent features are “linked together” (Goldstein & Brockmole, 2017). Finally, this leads to the human perception of the object. Computer scientists should apply the feature integration theory by developing more sophisticated algorithms for object detection through the detection of features.
+
+
+In an Amazon Mechanical Turk experiment, humans were better at recognizing minimal images and smaller details than computational models. Subjects were presented with MIRCs, which are image patches that can be recognized by human observers and were told to name the object or part in the image they recognized. The top-down visual search is applied through “feed-forward computational models” that the study compares human vision to (Ullman et al., 2016). This study includes deep convolutional networks that are “adapted for recognizing small images” (Ullman et al., 2016). Despite this, the models still did not perform as well as the humans did with recognizing image patches. Computer scientists have a long way to go before replicating the accuracy and “detailed image interpretation” of human vision (Ullman et al., 2016).
+
+
+Deep learning in computer vision provides many levels of abstraction that mimic the deep neural networks in our brains. Deep neural networks in our brains are extremely “complex” and still not completely understood (Kriegeskorte, 2015). By contrast, computational models have artificial neural networks that have well-defined layers with matrix multiplication, stochastic pooling, convolution, and other mathematical operations. Humans are better at context and understanding the meaning behind a visual scene, unlike computers. Perhaps artificial neural networks can incorporate layers for deriving information from the context of a scene through semantical analysis. Humans all have different biases when gathering the gist from a visual scene. Still, computer vision would gather unbiased input that computer scientists would achieve by cleaning data sets and removing bias from those (Kyle-Davidson et al., 2023).
+        
+Because human attention is split, they fully process one thing at a time, requiring the division of their attention between two tasks. This results in attention limitations such as inattentional blindness and change blindness which leads to missing things right in front of our eyes. The objects humans do attend to can be more accurate than most computer vision models currently, while computer vision models can easily multitask for attention in the context of object recognition. Since humans cannot multitask, selective attention is used to shift attention to the most important content in the scene. However, computers cannot multitask with every single object in a scene as they experience “computational complexity” as well. (Frintrop et al., 2010). Computer scientists can account for the lack of resources by prioritizing a few inputs from the visual scene at a time.
+
+
+Although computer vision can maximize the strengths of human vision while ignoring its weaknesses, human vision currently proves to be more accurate due to its intricate capabilities. Scientists still need to understand the layers behind neural networks in our brains. Computer scientists can replicate human vision upon iteration of these computational vision models to produce fewer instances of misrepresented feature, object and image classification.
+
+
+
+
+
+
+
+
+References
+Ullman, S., Assif, L., Fetaya, E., & Harari, D. (2016). Atoms of recognition in human and computer vision. Proceedings of the National Academy of Sciences of the United States of America, 113(10), 2744–2749. https://doi.org/10.1073/pnas.1513198113
+Goldstein, E. B., & Brockmole, J. R. (2017). Sensation and perception. Cengage learning.
+Torralba, A., Murphy, K., Freeman, W., & Rubin, D. (2003). Context-based vision system for place and Object Recognition. Proceedings Ninth IEEE International Conference on Computer Vision. https://doi.org/10.1109/iccv.2003.1238354 
+Frintrop, S., Rome, E., & Christensen, H. I. (2010). Computational Visual Attention Systems and their cognitive foundations. ACM Transactions on Applied Perception, 7(1), 1–39. https://doi.org/10.1145/1658349.1658355
+Kriegeskorte, N. (2015). Deep Neural Networks: A new framework for modeling biological vision ... Annual Reviews. https://www.annualreviews.org/doi/pdf/10.1146/annurev-vision-082114-035447 
+Kyle-Davidson, C., Zhou, E. Y., Walther, D. B., Bors, A. G., & Evans, K. K. (2023). Characterising and dissecting human perception of scene complexity. Cognition, 231, 105319. https://doi.org/10.1016/j.cognition.2022.105319
